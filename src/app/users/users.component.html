@@ -10,7 +10,7 @@
               <div class="card-img-top">
                 <img src="{{user.avatar_url}}" alt="">
               </div> 
-
+              
             </div>
             </div>
           <div class="col-sm-6 user">
@@ -26,7 +26,7 @@
                  
                 <p><i class="fa fa-clock-o" style="font-size:18px"></i>&nbsp;&nbsp; Joined:&nbsp;&nbsp;{{user.created_at | datePipe}}</p>
                  
-                <p><i class="fa fa-github" style="font-size:20px"></i>&nbsp;&nbsp;<a href="{{user.html_url}}">Go to Github</a></p>
+                <p><i class="fa fa-github" style="font-size:20px"></i>&nbsp;&nbsp;<a href="{{user.html_url}}" target="blank">Go to Github</a></p>
                 
               </div>
             </div>  
@@ -38,7 +38,7 @@
       
       <div class="text-center repos" id="reps">
           <h2>Repos</h2>
-        </div>
+      </div>
       <div class="container allrepos">
         <div class="card" appHighlight *ngFor="let repository of repo" style="width: 22rem;" class="repo">
           <div class="card-body" >
@@ -63,7 +63,7 @@
                 <button >Forks: <span class="forks">{{repository.forks}}</span></button>
               </div>
               <div class="btn-group" role="group" aria-label="Third group">
-                <button id="visit"><a href="{{repository.html_url}}" class="card-link">VIEW</a> </button> 
+                <button id="visit"><a href="{{repository.html_url}}" target="blank">VIEW</a> </button> 
               </div>
             </div>
         </div>
