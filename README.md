@@ -1,5 +1,5 @@
 # GitHub Search project
-#### Simple web app that searches github usernames.
+#### Simple web app that searches github usernames and their repositories.
 ## Author
 Uwase Benitha
 
@@ -7,7 +7,7 @@ Uwase Benitha
 This web page is going to display github usernames and their repositories.
 
 ## Setup instructions
-* There is no need to enter your personal credials to access this page.
+* There is no need to enter your personal credentials to access this page.
 * You will only be required to enter your github username.
 * Scroll down until the last to see all information.
 * You only need the live link to access my page.
@@ -21,7 +21,7 @@ This web page is going to display github usernames and their repositories.
 
 
 ## Github Pages link
-You can view the live application by following this link 
+You can view the live application by following this link https://benitha250.github.io/Git-Search/
 
 ## Contact information
 * buwase120@daviscollege.com
