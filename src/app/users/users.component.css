@@ -45,7 +45,6 @@ p{
   color:black
 }
 .allrepos{
-  font-family: 'Lustria', serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -60,7 +59,7 @@ p{
 .btn-group{
   margin-left: 10px;
 }
-#visit a{
+#view a{
   text-decoration: none;
   color: black;
 }
