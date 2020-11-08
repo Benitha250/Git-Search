@@ -9,13 +9,13 @@ img{
   border-radius: 8px;
 }
 .card{
-  /* background: teal; */
-  background-color: rgba(5, 146, 146, 0.6);
+  background-color: white;
   box-shadow: 3px 3px 5px black;
+  color: black;
 
 }
 .repo{
-  background-color:rgba(232, 253, 255, 0.705);
+  background-color: white;
   color: black;
   margin-bottom: 2%;
   border-radius: 4px; 
@@ -71,7 +71,6 @@ p{
 .repos h2{
   font-size: 45px;
   margin-bottom: 2%;
-  font-family: 'Berkshire Swash', cursive;
 }
 #mouse-click{
   margin-top: -2%;
@@ -96,17 +95,8 @@ p{
   width: 20px;
   height: 60px;
 }
-.follow{
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.555);
-  padding: 1%;
-  float: right;
-  margin-right: 20%;
-}
-.datejoined{
-  float: right;
-  margin-right: 14%;
-}
+
+
 #profile{
   font-size: 14px;
   color: rgb(255, 255, 255);
@@ -116,5 +106,4 @@ p{
 }
 #created{
   font-weight: 400;
-  font-family: 'Pangolin', cursive;
 }
