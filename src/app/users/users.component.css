@@ -18,7 +18,7 @@ img{
   border-radius: 4px; 
   box-shadow: 3px 3px 5px black;
 }
-a{
+a, ul li{
   text-decoration: none;
 }
 .content{
@@ -79,4 +79,8 @@ p{
 }
 #created{
   font-weight: 400;
+}
+footer{
+  font-weight: bold;
+  margin-top: 10px;
 }
