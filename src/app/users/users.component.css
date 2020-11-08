@@ -54,10 +54,7 @@ p{
   flex-wrap: wrap;
   justify-content: space-around;
 }
-hr{
-  background-color: rgb(11, 199, 199);
-  height: 1px;
-}
+
 .desc{
   min-height: 95px;
 }
@@ -79,7 +76,6 @@ hr{
 #mouse-click{
   margin-top: -2%;
   padding-bottom: 30px; 
-  /* animation-iteration-count: infinite; */
 }
 #mouse-click {
   animation: bounce 2s infinite;
