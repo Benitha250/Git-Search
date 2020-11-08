@@ -1,63 +1,52 @@
-# GitSearch
-
-
+# GitHub Search project
+#### Simple web app that searches github usernames.
 ## Author
-
-[Owiti-Charles](https://github.com/Owiti-Charles)
+Uwase Benitha
 
 ## Description
+This web page is going to display github usernames and their repositories.
 
-This is Agular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories based on github user name.
+## Setup instructions
+* There is no need to enter your personal credials to access this page.
+* You will only be required to enter your github username.
+* Scroll down until the last to see all information.
+* You only need the live link to access my page.
 
-## Screenshot
-
-<img src= "https://raw.githubusercontent.com/Owiti-Charles/Git-Search/master/src/assets/screenshotgitsearch.png" width="900px" height="440px">
-
-## Live Page 
-https://Owiti-charles.github.io/Git-Search/ 
-
-
-
-Composed of two main components.
-* `Search Users` -search for users on git-hub based on their usernames.
-* `Search Repositories` -search for repositories on git-hub based on their authoers name.
-
-## BDD ##
-| Behavior                  | Input                     | Output                    |
-| ------------------------- | ------------------------- | ------------------------- |
-| Search for a github profile |Enter the username of the github User name | Displays the name, username, number of repositories,Joining date, followers, following and lists the repos  |
-
-## Installation / Setup instruction
-* Open Terminal {Ctrl+Alt+T}
-
-* git clone ```https://github.com/Owiti-Charles/Git-Search.git```
-
-* cd Git-Search
-
-* code . or atom . based on the text editor you have.
-
-* Run ng serve for a dev server. 
-
-* Navigate to http://localhost:4200/. 
-
-* `npm install && ng serve`
-
-## Technology used ##
-
-* Angular CLI
-* HTML 
+## Technologies Used
+* HTML  
 * CSS
-* Bootstrap 
+* Javascript
 * Typescript
-* Generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+* Angular CLI
 
-## Known Bugs
-* No known bug now but pull requests are encouraged
 
-## Contact Information 
+## Github Pages link
+You can view the live application by following this link 
 
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
+## Contact information
+* buwase120@daviscollege.com
+* +250780873772
 
 ## License
-* *MIT License:*
-* Copyright (c) 2019 **Owiti Charles**
+#### *MIT License*
+The MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+(c) 2020 **Benitha Uwase**
