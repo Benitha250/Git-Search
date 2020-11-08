@@ -35,6 +35,6 @@ repo: Repos;
   }
 
   ngOnInit() {
-    this.searchs('Beniha250');
+    this.searchs('Benitha250');
   }
 }

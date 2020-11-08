@@ -3,7 +3,7 @@ import {UserserviceService} from '../userservice.service';
 import { Repos } from '../repos';
 
 @Component({
-  selector: 'app-reopsitories',
+  selector: 'app-repositories',
   templateUrl: './repositories.component.html',
   styleUrls: ['./repositories.component.css']
 })
