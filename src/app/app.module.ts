@@ -7,7 +7,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { UsersComponent } from './users/users.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchFormComponent } from './search-form/search-form.component';
-import { RepositoriesComponent } from './repositories/repositories.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { UserserviceService } from './userservice.service';
 import { HighlightDirective } from './highlight.directive';
@@ -21,7 +20,6 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
     UsersComponent,
     NavbarComponent,
     SearchFormComponent,
-    RepositoriesComponent,
     NotfoundComponent,
     HighlightDirective,
     DatePipePipe,
