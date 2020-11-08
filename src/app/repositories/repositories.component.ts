@@ -13,7 +13,7 @@ export class RepositoriesComponent implements OnInit {
   constructor( public repoService: UserserviceService ) { }
 
   repoSearch(searchName){
-    this.repoService.getReopos(searchName).then(
+    this.repoService.getRepos(searchName).then(
       (results)=>{
         this.repo =this.repoService.allRepos
         console.log(this.repo);

@@ -23,7 +23,7 @@ repo: Repos;
         console.log(error)
       }
     );
-      this.repoService.getReopos(searchName).then(
+      this.repoService.getRepos(searchName).then(
         (results)=>{
           this.repo =this.repoService.allRepos
           console.log(this.repo);
