@@ -4,10 +4,10 @@ import { Repos } from '../repos';
 
 @Component({
   selector: 'app-reopsitories',
-  templateUrl: './reopsitories.component.html',
-  styleUrls: ['./reopsitories.component.css']
+  templateUrl: './repositories.component.html',
+  styleUrls: ['./repositories.component.css']
 })
-export class ReopsitoriesComponent implements OnInit {
+export class RepositoriesComponent implements OnInit {
 
   repo: Repos;
   constructor( public repoService: UserserviceService ) { }
