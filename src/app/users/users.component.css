@@ -43,10 +43,6 @@ p{
 .name{
   font-size: 18px;
 }
-.btn{
-  margin-top: -1%;
-  float: right;
-}
 .allrepos{
   font-family: 'Lustria', serif;
   display: flex;
@@ -65,7 +61,6 @@ p{
 }
 #visit a{
   text-decoration: none;
-  color: beige;
 }
 .repos h2{
   font-size: 45px;
