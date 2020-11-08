@@ -1,8 +1,5 @@
-.overlay{
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-top:1%;
-  color: white;
-  border: 1px solid white;
+.container-fluid{
+  background-color: black;
 }
 img{
   width: 100%;
@@ -44,6 +41,7 @@ p{
   font-size: 18px;
   color:black
 }
+
 .allrepos{
   display: flex;
   flex-wrap: wrap;
@@ -66,6 +64,8 @@ p{
 .repos h2{
   font-size: 45px;
   margin-bottom: 2%;
+  margin-top: 50px;
+  color: white;
 }
 
 

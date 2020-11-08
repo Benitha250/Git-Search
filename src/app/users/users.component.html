@@ -1,7 +1,7 @@
 
 <div class="container-fluid">
     <ng-progress></ng-progress>
-  <div class="overlay">
+  <div>
       <app-search-form (searchOutput)= "searchs($event)"></app-search-form>
       <div class="container content">
         <div class="row">
@@ -18,7 +18,7 @@
               <div class="card-body">
                 <h4>UserName: {{user.login}}</h4>
                  
-                <p><i class="fa fa-clock-o" style="font-size:18px"></i>&nbsp;&nbsp; Joined:&nbsp;&nbsp;{{user.created_at | datePipe}}</p>
+                <p><i class="fa fa-file-o" style="font-size:18px"></i>&nbsp;&nbsp; Repositories:&nbsp;&nbsp; <span class="follow">{{user.public_repos}}</span></p>
                  
                 <p> <i class="fa fa-user" style="font-size:18px"></i>&nbsp;&nbsp; Following:&nbsp;&nbsp;{{user.following}}</p>
                  
@@ -36,11 +36,11 @@
       <div>
       </div>
       
-      <div class="text-center repos" id="reps">
-          <h2>Repos</h2>
+      <div class="text-center repos">
+          <h2>Repos </h2>
       </div>
       <div class="container allrepos">
-        <div class="card" appHighlight *ngFor="let repository of repo" style="width: 22rem;" class="repo">
+        <div class="card" appHighlight *ngFor="let repository of repo" style="width: 44rem;" class="repo">
           <div class="card-body" >
             <h5 class="card-title"><span class="top">Repository:</span> &nbsp;{{repository.name}} </h5>
             <div class="card-text">
