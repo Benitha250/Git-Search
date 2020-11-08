@@ -29,7 +29,6 @@ a{
   margin-bottom: 0.5%;
 }
 .user{
-  margin-left:1;
   margin-top: 1%;
 }
 #imgcard{
@@ -72,29 +71,7 @@ p{
   font-size: 45px;
   margin-bottom: 2%;
 }
-#mouse-click{
-  margin-top: -2%;
-  padding-bottom: 30px; 
-}
-#mouse-click {
-  animation: bounce 2s infinite;
-}
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-35px);
-  }
-  60% {
-    transform: translateY(-25px);
-  }
-}
-#click img{
-  width: 20px;
-  height: 60px;
-}
 
 
 #profile{

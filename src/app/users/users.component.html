@@ -5,7 +5,7 @@
       <app-search-form (searchOutput)= "searchs($event)"></app-search-form>
       <div class="container content">
         <div class="row">
-          <div class="col-sm-4" id="imgcard">
+          <div class="col-sm-3" id="imgcard">
             <div class="userimage">
               <div class="card-img-top">
                 <img src="{{user.avatar_url}}" alt="">
@@ -15,18 +15,18 @@
               </div>
             </div>
             </div>
-          <div class="col-sm-7 user">
+          <div class="col-sm-6 user">
             <div class="card" appHighlight>
               <div class="card-body">
                 <h4>UserName: {{user.login}}</h4>
                  
-                <p><i class="fa fa-file-o" style="font-size:18px"></i>&nbsp;&nbsp; Repos:&nbsp;&nbsp; <span class="follow">{{user.public_repos}}</span></p>
+                <p><i class="fa fa-file-o" style="font-size:18px"></i>&nbsp;&nbsp; Repos:&nbsp;&nbsp;{{user.public_repos}}</p>
                  
-                <p> <i class="fa fa-user" style="font-size:18px"></i>&nbsp;&nbsp; Following:&nbsp;&nbsp; <span class="follow">{{user.following}}</span></p>
+                <p> <i class="fa fa-user" style="font-size:18px"></i>&nbsp;&nbsp; Following:&nbsp;&nbsp;{{user.following}}</p>
                  
-                <p> <i class="fa fa-users"style="font-size:18px"></i>&nbsp;&nbsp; Followers:&nbsp;&nbsp; <span class="follow">{{user.followers}}</span></p>
+                <p> <i class="fa fa-users"style="font-size:18px"></i>&nbsp;&nbsp; Followers:&nbsp;&nbsp;{{user.followers}}</p>
                  
-                <p><i class="fa fa-clock-o" style="font-size:18px"></i>&nbsp;&nbsp; Joined:&nbsp;&nbsp; <span class="datejoined">{{user.created_at | datePipe}}</span></p>
+                <p><i class="fa fa-clock-o" style="font-size:18px"></i>&nbsp;&nbsp; Joined:&nbsp;&nbsp;{{user.created_at | datePipe}}</p>
                  
               </div>
             </div>  
